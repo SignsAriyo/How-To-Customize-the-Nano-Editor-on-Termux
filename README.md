@@ -1,12 +1,10 @@
 # How-To-Customize-the-Nano-Editor-on-Termux
 
-#Here are the six amazing things you didn't know you can achieve with the Nano Code Editor on the Termux app
-
 _Nano allows customization, and am not talking about just changing the theme from light to dark, but you can do whatever you imagine_
 
 Imagine you can now have line numbers, new color for the syntax texts, you can have a touch mouse(no more using the arror keys on the keyboard to move the cursor) and set an auto-indentation 
 
-##Here is the process
+## Here is the process
 
 After you must have updated Termux with `apt update && apt upgrade` and installed nano with ,`apt install nano`, check if nano has been installed with `nano --version` _(a set of numbers should appear, if its doesn't then nano wasn't installed successfully)_
 
@@ -27,10 +25,10 @@ set tabsize 4
 set mouse
 set autoindent
 ```
-#Image
+# Image
 
 This is what the nanorc file should look like
-![image of the nanorc file](https://imgur.com/a/nanorc-jEtL8DO, "nanorc")
+[![IMG-20241031-094605.jpg](https://i.postimg.cc/59mzVBsj/IMG-20241031-094605.jpg)](https://postimg.cc/HjVn0yDC)
 
 Then, press `Ctrl+O` to save and `Ctrl+X` to close nano
 
